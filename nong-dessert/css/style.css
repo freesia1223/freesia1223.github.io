@@ -1,0 +1,439 @@
+body {
+    font-family: Arial, "微軟正黑體", "Microsoft JhengHei", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "標楷體", DFKai-SB, sans-serif;
+}
+
+.container {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    max-width: 1410px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/index banner/cake05.jpg');
+    background-size: cover;
+    background-position: 25% 20%;
+    margin-bottom: 150px;
+}
+
+.section1-1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    width: 388px;
+    height: 128px;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+}
+
+.info {
+    position: absolute;
+    bottom: 110px;
+    width: 305px;
+    height: 284px;
+}
+
+.icon {
+    display: inline-block;
+    padding-right: 18px;
+}
+
+.info-word {
+    color: white;
+    font-size: 24px;
+    margin-top: 18px;
+    margin-bottom: 0rem;
+    line-height: 27px;
+}
+
+.scroll {
+    font-family: 'Itim', cursive;
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.scroll p {
+    margin-bottom: 0;
+    line-height: 30px;
+    font-size: 50px;
+}
+
+
+/* .section2 {
+    width: 100%;
+    height: 1174px;
+    background-color: rgb(255, 255, 255);
+    background-position: 25% 20%;
+
+} */
+
+.section2-1 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 225px;
+}
+
+.subtitle1 {
+    border: solid 1px;
+    width: 210px;
+    height: 80px;
+    top: 150px;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #595757;
+    margin-bottom: 153px;
+}
+
+.subtitle1 p {
+    margin-bottom: 0;
+}
+
+.news-border {
+    border: solid 1px #7EB2DD;
+    bottom: 182px;
+    padding: 30px 0;
+}
+
+.news-border::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 345px;
+    background-color: #FCB0B3;
+    left: 52px;
+    top: 70px;
+}
+
+.news-list a {
+    display: inline-block;
+    color: #595757;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.news-list a::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 99em;
+    background-color: #FCB0B3;
+    vertical-align: -5px;
+    margin-right: 30px;
+}
+
+.right-border {
+    padding-top: 73px;
+}
+
+
+.section3 {
+    width: 100%;
+    background-image: url('../img/about/bg-pink01.jpg');
+    background-size: cover;
+}
+
+.section3-1 {
+    position: relative;
+    width: 100%;
+}
+
+.subtitle2 {
+    width: 245px;
+    height: 100px;
+    top: 150px;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #595757;
+    margin-bottom: 153px;
+    margin-top: 97px;
+}
+
+.section3-2 {
+    padding: 0 140px;
+}
+
+.nong-pic {
+    width: 530px;
+    height: 353px;
+    background-image: url('../img/about/nong.jpg');
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.market-pic {
+    width: 500px;
+    height: 423px;
+    background-image: url('../img/about/market.jpg');
+    background-size: cover;
+    float: right;
+    transform: translateY(-80px);
+}
+
+.express-pic {
+    width: 423px;
+    height: 477px;
+    background-image: url('../img/about/express.jpg');
+    background-size: cover;
+    margin-bottom: 30px;
+    float: left;
+    transform: translateY(-150px);
+}
+
+.warm-card-pic {
+    width: 616px;
+    height: 418px;
+    background-image: url('../img/about/warm card.jpg');
+    background-size: cover;
+    float: right;
+    transform: translateY(-250px);
+}
+
+.warm-card-word {
+    width: 445px;
+    height: 418px;
+    float: left;
+    transform: translateY(-110px);
+}
+
+
+.section4{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/menu/menu banner 2.jpg');
+    background-size: cover;
+    background-position: 25% 20%;
+}
+.section4-1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.subtitle3 {
+    position: absolute;
+    width: 245px;
+    height: 100px;
+    top: 97px;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #ffffff;
+    margin-bottom: 153px;
+}
+.subtitle3-1{
+    position: absolute;
+    width: 620px;
+    height: 300px;
+    top: 217px;
+    right: 70px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 100px;
+    color: #ffffff;
+    margin-bottom: 153px;
+    letter-spacing: 5px;
+}
+.subtitle3-2{
+    position: absolute;
+    width: 500px;
+    height: 165px;
+    bottom: 135px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+.section5-1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.subtitle4{
+    position: absolute;
+    top: 97px;
+    width: 420px;
+    height: 100px;
+    font-size: 72px;
+    font-weight: bold;
+    color: #595757;
+    letter-spacing: 5px;
+}
+
+.navs{
+    position: absolute;
+    bottom:50px;
+    width: 100%;
+}
+.nav-item{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#dessert-tab{
+    background-color: #ABD6F4;
+    color: white;
+}
+
+#cake-tab{
+    background-color: #89C1E0;
+    color: white;
+}
+
+#pie-tab{
+    background-color: #5793AD;
+    color: white;
+}
+
+#cookie-tab{
+    background-color: #3B5E72;
+    color: white;
+}
+
+.d1{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/cupcake.jpg');
+    background-size: cover;
+}
+.d3{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/chocolate.jpg');
+    background-size: cover;
+}
+.d5{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/macaron.jpg');
+    background-size: cover;
+}
+.c1{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/tiramisu.jpg');
+    background-size: cover;
+}
+.c3{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/bearcake.jpg');
+    background-size: cover;
+}
+.c5{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/cranberriescake.jpg');
+    background-size: cover;
+}
+.c7{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/nutscake.jpg');
+    background-size: cover;
+}
+.p1{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/lemoncake.jpg');
+    background-size: cover;
+}
+.p3{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/applepie.jpg');
+    background-size: cover;
+}
+.p5{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/chocolatepie.jpg');
+    background-size: cover;
+}
+.k1{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/chocolatecookie.jpg');
+    background-size: cover;
+}
+.k3{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/cranberrycookie.jpg');
+    background-size: cover;
+}
+.k5{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/teacookie.jpg');
+    background-size: cover;
+}
+.k7{
+    
+    width: 338px;
+    height: 216px;
+    background-image:url('../img/menu/jamcookie.jpg');
+    background-size: cover;
+}
+.dessert-pane{
+    padding-top: 50px;
+    background-color: #ABD6F4;
+}
+.cake-pane{
+    padding-top: 50px;
+    background-color: #89C1E0;
+}
+.pie-pane{
+    padding-top: 50px;
+    background-color: #5793AD;
+}
+.cookie-pane{
+    padding-top: 50px;
+    background-color: #3B5E72;
+}
+
+
+.section6{
+    width: 100%;
+    height: 2616px;
+    background-image: url('../img/card/bg-pink02.jpg');
+    background-size: cover;
+    background-position: 25% 20%;
+}
+.section6-1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
