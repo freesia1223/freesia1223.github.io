@@ -2,13 +2,78 @@ body {
     font-family: Arial, "微軟正黑體", "Microsoft JhengHei", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "標楷體", DFKai-SB, sans-serif;
 }
 
-.container {
-    border-left: solid 1px black;
-    border-right: solid 1px black;
-    max-width: 1410px;
-    margin: 0 auto;
-    position: relative;
+.bar{
+    position: fixed;
+    right: 100px;
+    top:100px;
+    width: 50px;
+    height: 50px;
+    z-index: 999999;
 }
+
+.blue-bar{
+    background-color: #7EB2DD;
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.blue-bar .line1, .blue-bar .line2, .blue-bar .line3{
+    background-color: #fff;
+    width: 40px;
+    height: 5px;
+    position: absolute;
+    transition-duration: 0.5s;  
+}
+.blue-bar .line1{
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.blue-bar .line2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+.blue-bar .line3{
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.blue-bar.active .line1{
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 50%;
+    left: 50%;
+}
+.blue-bar.active .line2{
+    transform: translate(-50%, -50%) ;
+    opacity: 0;
+}
+.blue-bar.active .line3{
+    transform: translate(-50%, -50%) rotate(-45deg);
+    top: 50%;
+    left: 50%;
+}
+
+.box{
+    width: 200px;
+    background-color:rgba(255,255,255, 0.50);
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: #595757;
+    height: 0;
+    transition: 1s;
+    overflow: hidden;
+    z-index: 1080000;
+}
+
+.box.active{
+    height: 600px;
+}
+
 
 
 .section1 {
@@ -71,15 +136,6 @@ body {
     font-size: 50px;
 }
 
-
-/* .section2 {
-    width: 100%;
-    height: 1174px;
-    background-color: rgb(255, 255, 255);
-    background-position: 25% 20%;
-
-} */
-
 .section2-1 {
     position: relative;
     width: 100%;
@@ -87,7 +143,6 @@ body {
 }
 
 .subtitle1 {
-    border: solid 1px;
     width: 210px;
     height: 80px;
     top: 150px;
@@ -140,6 +195,13 @@ body {
 
 .right-border {
     padding-top: 73px;
+    position: absolute;
+    transition: 1s;
+
+}
+.right-border:hover{
+    padding-top: 55px;
+    position: absolute;
 }
 
 
@@ -180,11 +242,11 @@ body {
 
 .market-pic {
     width: 500px;
-    height: 423px;
+    height: 350px;
     background-image: url('../img/about/market.jpg');
     background-size: cover;
-    float: right;
-    transform: translateY(-80px);
+    /* float: right;
+    transform: translateY(-80px); */
 }
 
 .express-pic {
@@ -193,24 +255,20 @@ body {
     background-image: url('../img/about/express.jpg');
     background-size: cover;
     margin-bottom: 30px;
-    float: left;
-    transform: translateY(-150px);
+    /* float: left;
+    transform: translateY(-150px); */
 }
 
 .warm-card-pic {
-    width: 616px;
-    height: 418px;
+    width: 500px;
+    height: 380px;
     background-image: url('../img/about/warm card.jpg');
     background-size: cover;
-    float: right;
-    transform: translateY(-250px);
 }
 
 .warm-card-word {
     width: 445px;
     height: 418px;
-    float: left;
-    transform: translateY(-110px);
 }
 
 
@@ -220,6 +278,7 @@ body {
     background-image: url('../img/menu/menu banner 2.jpg');
     background-size: cover;
     background-position: 25% 20%;
+    margin-bottom: 50px;
 }
 .section4-1 {
     position: relative;
@@ -268,7 +327,6 @@ body {
 }
 
 .subtitle4{
-    position: absolute;
     top: 97px;
     width: 420px;
     height: 100px;
@@ -310,98 +368,84 @@ body {
 }
 
 .d1{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/cupcake.jpg');
     background-size: cover;
 }
 .d3{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/chocolate.jpg');
     background-size: cover;
 }
 .d5{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/macaron.jpg');
     background-size: cover;
 }
 .c1{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/tiramisu.jpg');
     background-size: cover;
 }
 .c3{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/bearcake.jpg');
     background-size: cover;
 }
 .c5{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/cranberriescake.jpg');
     background-size: cover;
 }
 .c7{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/nutscake.jpg');
     background-size: cover;
 }
 .p1{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/lemoncake.jpg');
     background-size: cover;
 }
 .p3{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/applepie.jpg');
     background-size: cover;
 }
 .p5{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/chocolatepie.jpg');
     background-size: cover;
 }
 .k1{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/chocolatecookie.jpg');
     background-size: cover;
 }
 .k3{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/cranberrycookie.jpg');
     background-size: cover;
 }
 .k5{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/teacookie.jpg');
     background-size: cover;
 }
 .k7{
-    
     width: 338px;
     height: 216px;
     background-image:url('../img/menu/jamcookie.jpg');
@@ -431,12 +475,13 @@ body {
     background-image: url('../img/card/bg-pink02.jpg');
     background-size: cover;
     background-position: 25% 20%;
+    margin-bottom: 150px;
 }
-.section6-1 {
+/* .section6-1 {
     position: relative;
     width: 100%;
     height: 100vh;
-}
+} */
 
 .subtitle5{
     margin: 50px 0;
@@ -451,7 +496,6 @@ body {
     height: 100vh;
 }
 .subtitle6{
-    border: solid 1px;
     width: 210px;
     top: 150px;
     font-size: 33px;
@@ -464,7 +508,6 @@ body {
     margin-bottom: 0;
 }
 .QAcollapse{
-    border:solid 1px;
     padding:0 120px;
 }
 .btn-link {
@@ -481,9 +524,13 @@ body {
 
 .section8{
     background-color:rgba(229,186,190, 0.50);
+
+}
+
+.section8-1{
+    padding-top: 100px;
 }
 .subtitle7 {
-    border: solid 1px;
     width: 210px;
     top: 150px;
     font-size: 33px;
@@ -500,4 +547,40 @@ body {
     height: 142px;
     background-image: url('../img/logo-black-w.png');
     background-size: cover;
+}
+
+.contact-info p{
+    margin-bottom: 7px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #E24F43;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+@keyframes jump{
+    10%{
+        bottom: 0px;
+        width: 110px;
+        height: 90px;
+    }
+    80%{
+        bottom: 500px;
+        height: 110px;
+        width: 90px;
+        animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        /*函數速查表*/
+    }
+    
+}
+
+@media screen and (min-width:1800px){
+    .container{
+        max-width: 1410px;
+    }
 }

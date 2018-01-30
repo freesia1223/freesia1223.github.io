@@ -16,18 +16,55 @@
     <link href="css/lightbox.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
     <title>Hello, world!</title>
 
 </head>
 
 <body>
-    <div class="section1">
+
+    <div class="bar">
+        <div style="position:relative;">
+            <div class="blue-bar">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="box">
+                <div class="Home" style="margin-bottom: 16px">
+                    <a href="#sec1" style="color:#595757">首頁
+                        <br>HOME</a>
+                </div>
+                <div class="Latest News" style="margin-bottom: 16px">
+                    <a href="#sec2" style="color:#595757">最新消息
+                        <br>Latest News</a>
+                </div>
+                <div class="About Nong" style="margin-bottom: 16px">
+                    <a href="#sec3" style="color:#595757">關於濃濃甜點店
+                        <br>About Nong</a>
+                </div>
+                <div class="Menu & Buy" style="margin-bottom: 16px">
+                    <a href="#sec4" style="color:#595757">商品與訂購
+                        <br>Menu & Buy</a>
+                </div>
+                <div class="Q & A" style="margin-bottom: 16px">
+                    <a href="#sec7" style="color:#595757">常見問題
+                        <br>Q & A</a>
+                </div>
+                <div class="Contact us" style="margin-bottom: 16px">
+                    <a href="#sec8" style="color:#595757">聯絡濃濃
+                        <br>Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section1" id="sec1">
         <div class="container">
             <div class="section1-1">
                 <div class="scroll">
                     <p>scroll</p>
-                    <i class="fas fa-chevron-down fa-5x"></i>
+                    <i class="fas fa-chevron-down fa-5x" style="animation: jump 1s infinite"></i>
                 </div>
                 <div class="logo"></div>
                 <div class="info">
@@ -49,7 +86,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="sec2">
         <div class="section2-1">
             <div class="row">
                 <div class="col">
@@ -89,7 +126,7 @@
             </div>
         </div>
     </div>
-    <div class="section3">
+    <div class="section3" id="sec3">
         <div class="section3-1">
             <div class="container">
                 <div class="row">
@@ -102,10 +139,10 @@
                 </div>
                 <div class="section3-2">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="nong-pic"></div>
+                        <div class="col-md-6 col-12">
+                            <div data-aos="fade-up" class="nong-pic"></div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-12">
                             <div class="nong-word">
                                 <p style="font-size:56px; color:#595757; font-weight:bold">濃濃是誰?</p>
                                 <p style="font-size:25px; color:#595757">濃濃甜點師是一個白天愛耍廢，下午卯起來做甜點的妹子，最喜歡攪拌奶油和揉麵團，每天早起的動力就是想要把喜愛甜點的心傳到每個人手中</p>
@@ -113,7 +150,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-12">
                             <div class="market-word">
                                 <p style="font-size:56px; color:#595757; font-weight:bold">最新鮮的原料</p>
                                 <p style="font-size:25px; color:#595757">濃濃每日採用新鮮原物料製作
@@ -121,15 +158,15 @@
                                     <br>將一切最健康、最美味的口感留給愛甜點的你們</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="market-pic"></div>
+                        <div class="col-md-6 col-12">
+                            <div data-aos="fade-up" class="market-pic"></div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-5">
-                            <div class="express-pic"></div>
+                        <div class="col-md-5 col-12">
+                            <div data-aos="fade-up" class="express-pic"></div>
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 col-12">
                             <div class="express-word">
                                 <p style="font-size:56px; color:#595757; font-weight:bold">值得信任的宅配</p>
                                 <p style="font-size:25px; color:#595757">本店宅配為黑貓宅急便
@@ -139,7 +176,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-6 col-12">
                             <div class="warm-card-word">
                                 <p style="font-size:56px; color:#595757; font-weight:bold">最溫暖的問候</p>
                                 <p style="font-size:25px; color:#595757">濃濃貼心小卡附贈服務
@@ -147,15 +184,15 @@
                                     <br>送給親人、情人、同事同學，亦或是想感謝的人都是最棒的選擇!</p>
                             </div>
                         </div>
-                        <div class="col-md-9">
-                            <div class="warm-card-pic"></div>
+                        <div class="col-md-6 col-12">
+                            <div data-aos="fade-up" class="warm-card-pic"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section4">
+    <div class="section4" id="sec4">
         <div class="container">
             <div class="section4-1">
                 <div class="subtitle3">
@@ -200,10 +237,10 @@
                         <div class="tab-pane dessert-pane fade show active" id="dessert" role="tabpanel" aria-labelledby="dessert-tab">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="dessert d1"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="dessert d2">
                                             <p style="font-size:23pt ; color:#595757 ; font-weight:bold; margin-bottom: 0;">繽紛杯子蛋糕(限店取)</p>
                                             <br>
@@ -214,10 +251,10 @@
                                                 <br>55元/顆</p>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="dessert d3"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="dessert d4">
                                             <p style="font-size:23pt ; color:#595757 ; font-weight:bold; margin-bottom: 0;">法國經典生巧克力</p>
                                             <br>
@@ -229,10 +266,10 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="dessert d5"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="dessert d6">
                                             <p style="font-size:23pt ; color:#595757 ; font-weight:bold; margin-bottom: 0;">法式馬卡龍</p>
                                             <br>
@@ -243,10 +280,10 @@
                                                 <br>35元/顆</p>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="dessert d7"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="dessert d8"></div>
                                     </div>
                                 </div>
@@ -255,10 +292,10 @@
                         <div class="tab-pane cake-pane fade" id="cake" role="tabpanel" aria-labelledby="cake-tab">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cake c1"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cake c2">
                                             <p style="font-size:23pt ; color:#595757 ; font-weight:bold; margin-bottom: 0;">濃濃提拉米蘇</p>
                                             <br>
@@ -269,10 +306,10 @@
                                                 <br>45元/片</p>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cake c3"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cake c4">
                                             <p style="font-size:23pt ; color:#595757 ; font-weight:bold; margin-bottom: 0;">聖誕小熊(限門市)</p>
                                             <br>
@@ -284,10 +321,10 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cake c5"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cake c6">
                                             <p style="font-size:23pt ; color:#595757 ; font-weight:bold; margin-bottom: 0;">歐式紅莓塔(限門市)</p>
                                             <br>
@@ -298,11 +335,11 @@
                                                 <br>65元/片</p>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cake c7">
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cake c8">
                                             <p style="font-size:23pt ; color:#595757 ; font-weight:bold; margin-bottom: 0;">夏威夷果仁蛋糕</p>
                                             <br>
@@ -319,10 +356,10 @@
                         <div class="tab-pane pie-pane fade" id="pie" role="tabpanel" aria-labelledby="pie-tab">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="pie p1"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="pie p2">
                                             <p style="font-size:23pt ; color:#ffffff ; font-weight:bold; margin-bottom: 0;">英式檸檬派</p>
                                             <br>
@@ -333,10 +370,10 @@
                                                 <br>45元/片</p>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="pie p3"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="pie p4">
                                             <p style="font-size:23pt ; color:#ffffff ; font-weight:bold; margin-bottom: 0;">焦糖蘋果派</p>
                                             <br>
@@ -348,10 +385,10 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="pie p5"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="pie p6">
                                             <p style="font-size:23pt ; color:#ffffff ; font-weight:bold; margin-bottom: 0;">法式可可派</p>
                                             <br>
@@ -362,10 +399,10 @@
                                                 <br>35元/顆</p>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="pie p7"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="pie p8"></div>
                                     </div>
                                 </div>
@@ -374,10 +411,10 @@
                         <div class="tab-pane cookie-pane fade" id="cookie" role="tabpanel" aria-labelledby="cookie-tab">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cookie k1"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cookie k2">
                                             <p style="font-size:23pt ; color:#ffffff ; font-weight:bold; margin-bottom: 0;">巧克力餅乾</p>
                                             <br>
@@ -388,10 +425,10 @@
                                                 <br>150元/盒</p>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cookie k3"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cookie k4">
                                             <p style="font-size:23pt ; color:#ffffff ; font-weight:bold; margin-bottom: 0;">蔓越莓餅乾</p>
                                             <br>
@@ -403,10 +440,10 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cookie k5"></div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cookie k6">
                                             <p style="font-size:23pt ; color:#ffffff ; font-weight:bold; margin-bottom: 0;">午後紅茶餅乾</p>
                                             <br>
@@ -417,11 +454,11 @@
                                                 <br>130元/盒</p>
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-12">
                                         <div class="cookie k7">
                                         </div>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-3 col-12">
                                         <div class="cookie k8">
                                             <p style="font-size:23pt ; color:#ffffff ; font-weight:bold; margin-bottom: 0;">濃濃果醬餅乾</p>
                                             <br>
@@ -444,7 +481,7 @@
         <div class="container">
             <div class="section6-1">
                 <div class="row">
-                    <div class="col">
+                    <div class="col col-12">
                         <div class="subtitle5">
                             <P>貼心附贈小卡</P>
                         </div>
@@ -452,43 +489,43 @@
 
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/A.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900">A.感謝你讚嘆你!!</P>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/B.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900">B.今天過得還好嗎?</P>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/C.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900; margin-bottom: 50px;">C.超級喜番你der~</P>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/D.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900">D.會更好的加油!!</P>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/E.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900">E.我很需要你欸~</P>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/F.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900; margin-bottom: 50px;">F.拍謝啦嗚嗚偶認錯!!</P>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/G.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900">G.祝你呷甜甜發大財~</P>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/H.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900">H.早安~祝美好的一天~</P>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-12">
                         <img src="img/card/small card/I.jpg" alt="">
                         <P style="font-size:20px; color:#595757; font-weight:900; margin-bottom: 50px;">I.就算累了不要忘了休息喔!</P>
                     </div>
@@ -502,21 +539,33 @@
                 <div class="row">
                     <div class="col">
                         <p style="font-size:60pt; color:#595757; font-weight:bolder; margin-bottom: -15px">或立刻填寫線上表單!</p>
-                        <p style="font-size:30pt; color:#595757; font-weight:bolder; margin-bottom: 30px">(可選擇宅配或店取)</p>
+                        <p style="font-size:30pt; color:#595757; font-weight:bolder; margin-bottom: 30px">(可選擇宅配或店取，請點下圖)</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <a href="https://goo.gl/forms/cbXWk65WALVey9Ue2">546455445</a>
+                        <a href="https://goo.gl/forms/cbXWk65WALVey9Ue2">
+                            <img style="margin-left: 640px" src="img/card/google form.jpg" alt="">
+                        </a>
                     </div>
                 </div>
-                <div class="row"></div>
+                <div class="row">
+                    <div class="col">
+                        <i class="fas fa-star fa-5x fa-spin"></i>
+                        <span style="color:#595757; font-size:72px; font-weight:900">小叮嚀</span>
+                        <p style="color:#595757; font-size:25px; line-height:48px;">網購方式:
+                            <br> 選好甜點和對應字卡之後，請填寫表單，當我們收到單後24小時內會打電話確認內容，請保持手機暢通~
+                            <br> 叮嚀大家~網購宅配物品有項目限制且若有碰撞無法避免，濃濃會謹慎包裝請各位消費者見諒!宅配方式使用低溫運送，詳細說明請見”常見問題”。
+                            <br> 字卡若有其他想設計的情況，依內容需額外收費，請透過FB/IG私訊我們喔~
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 
-    <div class="container">
+    <div class="container" id="sec7">
         <div class="section7-1">
             <div class="rol">
                 <div class="col">
@@ -636,7 +685,7 @@
                                 </div>
                                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                                     <div class="card-body">
-                                        <a href="http://www.t-cat.com.tw/Inquire/Trace.aspx">點我進入黑貓一般包裹查詢頁面</a> 
+                                        <a href="http://www.t-cat.com.tw/Inquire/Trace.aspx">點我進入黑貓一般包裹查詢頁面</a>
                                     </div>
                                 </div>
                             </div>
@@ -646,7 +695,7 @@
             </div>
         </div>
     </div>
-    <div class="section8">
+    <div class="section8" id="sec8">
         <div class="container">
             <div class="section8-1">
                 <div class="subtitle7">
@@ -658,16 +707,47 @@
                 <div class="col-6">
                     <div class="contact-logo"></div>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                    <a href="https://www.facebook.com/%E9%AE%AE%E5%85%A5%E7%82%BA%E7%85%AE-158185937574275/">
+                        <img style="margin-bottom:10px" src="img/contact/fb-icon.png" alt="">
+                        <span style="font-size:30px;color:#595757">濃濃甜點店臉書專頁</span>
+                    </a>
+                    <br>
+                    <a href="https://www.instagram.com/clintonhallny/">
+                        <img src="img/contact/ig-icon.png" alt="">
+                        <span style="font-size:30px;color:#595757; margin-bottom:50px">濃濃甜點店Instagram</span>
+                    </a>
+                </div>
             </div>
             <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                    <div class="map" style="padding: 65px 0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12235.877410996605!2d120.72994750546025!3d24.250586917850075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2877808fa5ca752d!2z5LiK55uK6Zu76IWm!5e0!3m2!1szh-TW!2stw!4v1517285276159"
+                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="contact-info" style="padding: 65px 0">
+                        <p style="font-size:30px;color:#ffffff">TEL:</p>
+                        <p style="font-size:30px;color:#595757">04-12345678</p>
+                        <p style="font-size:30px;color:#ffffff">營業時間:</p>
+                        <p style="font-size:30px;color:#595757">10:00-20:00</p>
+                        <p style="font-size:30px;color:#ffffff">定休日:</p>
+                        <p style="font-size:30px;color:#595757">星期一、四
+                            <br>(詳見最新消息)</p>
+                        <p style="font-size:30px;color:#ffffff">店面地址:</p>
+                        <p style="font-size:30px;color:#595757">台中市大里區火星路1號</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <div class="footer">
+        <p>2018©by yuting chen</p>
+    </div>
 
 
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -676,6 +756,54 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="js/lightbox.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+    <script>
+        $(".blue-bar").click(function () {
+            $(".blue-bar").toggleClass('active');
+            $(".box").toggleClass('active');
+        });
+
+        // AOS初始化
+        AOS.init();  
+
+        // smooth scrolling
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+    </script>
 
 </body>
 
