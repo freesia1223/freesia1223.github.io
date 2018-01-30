@@ -445,3 +445,59 @@ body {
     color: #595757;
     letter-spacing: 5px;
 }
+
+.section7-1 {
+    width: 100%;
+    height: 100vh;
+}
+.subtitle6{
+    border: solid 1px;
+    width: 210px;
+    top: 150px;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #595757;
+    margin-bottom: 120px;
+}
+.subtitle6 p{
+    margin-bottom: 0;
+}
+.QAcollapse{
+    border:solid 1px;
+    padding:0 120px;
+}
+.btn-link {
+    font-weight: 900;
+    color: #595757;
+    font-size: 20px;
+    background-color: transparent;
+}
+.card-body {
+    color:#898989;
+    font-size: 16px;
+}
+
+
+.section8{
+    background-color:rgba(229,186,190, 0.50);
+}
+.subtitle7 {
+    border: solid 1px;
+    width: 210px;
+    top: 150px;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #595757;
+    margin-bottom: 120px;
+}
+.subtitle7 p{
+    margin-bottom: 0;
+}
+.contact-logo{
+    width: 430px;
+    height: 142px;
+    background-image: url('../img/logo-black-w.png');
+    background-size: cover;
+}
