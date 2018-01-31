@@ -487,6 +487,18 @@ body {
     background-size: cover;
 }
 
+.fb-icon-w{
+    font-size:30px;
+    color:#595757;
+    margin-bottom:50px
+}
+
+.ig-icon-w{
+    font-size:30px;
+    color:#595757;
+    margin-bottom:50px
+}
+
 .contact-info p{
     margin-bottom: 7px;
 }
@@ -667,6 +679,17 @@ body {
     }
     .QAcollapse{
         padding:0
+    }
+    .contact-logo{
+        width: 100%;
+        height: 115px;
+        margin-bottom: 50px;
+    }
+    .fb-icon-w{
+        font-size: 25px;
+    }
+    .ig-icon-w{
+        font-size: 25px;
     }
 
 }
