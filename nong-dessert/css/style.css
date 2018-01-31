@@ -328,10 +328,22 @@ body {
     letter-spacing: 5px;
 }
 
-.navs{
+.nav1{
     position: absolute;
     bottom:75px;
     width: 100%;
+}
+.menu-info1-1{
+    display: none;
+}
+.menu-info2-1{
+    display: none;
+}
+.menu-info3-1{
+    display: none;
+}
+.menu-info4-1{
+    display: none;
 }
 .nav-item{
     font-size: 30px;
@@ -641,9 +653,32 @@ body {
     }
     
 
-    .navs{
+    .menu-info1{
         display: none;
     }
+    .menu-info2{
+        display: none;
+    }
+    .menu-info3{
+        display: none;
+    }
+    .menu-info4{
+        display: none;
+    }
+
+    .menu-info1-1{
+        display: block;
+    }
+    .menu-info2-1{
+        display: block;
+    }
+    .menu-info3-1{
+        display: block;
+    }
+    .menu-info4-1{
+        display: block;
+    }
+
 
 
     .section6{
