@@ -104,7 +104,6 @@ body {
     position: absolute;
     bottom: 110px;
     width: 305px;
-    height: 284px;
 }
 
 .icon {
@@ -551,6 +550,10 @@ body {
         background-size: cover;
         position: absolute;
         top: 50px;
+    }
+    .info-word{
+        font-size: 18px;
+        line-height: 13px;
     }
     .scroll{
         bottom:-15px;
