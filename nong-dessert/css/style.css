@@ -391,7 +391,7 @@ body {
     background-image: url('../img/card/bg-pink02.jpg');
     background-size: cover;
     background-position: 25% 20%;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 /* .section6-1 {
     position: relative;
@@ -678,9 +678,7 @@ body {
 
 
 
-    .section6{
-        margin-bottom: 370px;
-    }
+    
 
     .subtitle5{
         font-size: 52px;
