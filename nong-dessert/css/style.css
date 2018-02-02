@@ -103,7 +103,6 @@ body {
 .info {
     position: absolute;
     bottom: 110px;
-    width: 305px;
 }
 
 .icon {
@@ -113,10 +112,10 @@ body {
 
 .info-word {
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 18px;
     margin-bottom: 0rem;
-    line-height: 27px;
+    line-height: 20px;
 }
 
 .scroll {
@@ -166,7 +165,7 @@ body {
     content: "";
     position: absolute;
     width: 3px;
-    height: 345px;
+    height: 330px;
     background-color: #FCB0B3;
     left: 52px;
     top: 70px;
@@ -179,7 +178,7 @@ body {
 .news-list a {
     display: inline-block;
     color: #595757;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 2px;
     font-weight: bold;
     padding: 20px;
@@ -254,9 +253,10 @@ body {
 
 .express-pic {
     width: 423px;
-    height: 477px;
+    height: 450px;
     background-image: url('../img/about/express.jpg');
     background-size: cover;
+    background-position: 20% 20%;
     margin-bottom: 30px;
 }
 
@@ -299,19 +299,19 @@ body {
     position: absolute;
     top: 217px;
     right: 70px;
-    font-size: 72px;
+    font-size: 60px;
     font-weight: bold;
-    line-height: 100px;
+    line-height: 70px;
     color: #ffffff;
     margin-bottom: 153px;
     letter-spacing: 5px;
 }
 .subtitle3-2{
     position: absolute;
-    bottom: 135px;
-    font-size: 25px;
+    bottom: 80px;
+    font-size: 20px;
     font-weight: bold;
-    line-height: 40px;
+    line-height: 35px;
     color: #ffffff;
     letter-spacing: 3px;
 }
@@ -344,7 +344,7 @@ body {
     display: none;
 }
 .nav-item{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     font-weight: bold;
 }
@@ -408,7 +408,7 @@ body {
 }
 
 .word2 .w1{
-    font-size:60pt; 
+    font-size:40pt; 
     color:#595757; 
     font-weight:bolder; 
     margin-bottom: -15px
@@ -424,12 +424,13 @@ body {
 }
 
 .google-form{
-    margin-left:640px    
+    margin-left:640px;   
 }
+
 
 .w4{
     color:#595757; 
-    font-size:25px; 
+    font-size:18px; 
     line-height:48px;
 }
 
