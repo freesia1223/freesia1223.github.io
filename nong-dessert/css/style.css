@@ -17,11 +17,10 @@ body {
     position: relative;
     width: 50px;
     height: 50px;
-    border-radius: 25%;
 }
 .blue-bar .line1, .blue-bar .line2, .blue-bar .line3{
     background-color: #fff;
-    width: 30px;
+    width: 40px;
     height: 5px;
     position: absolute;
     transition-duration: 0.5s;  
