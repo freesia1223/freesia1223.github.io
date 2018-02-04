@@ -193,7 +193,7 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="express-word img-fluid">
-                                <p style="font-size:50px; color:#595757; font-weight:bold">值得信任的宅配</p>
+                                <p class=express-word-t style="font-size:50px; color:#595757; font-weight:bold">值得信任的黑貓宅配</p>
                                 <p style="font-size:20px; color:#595757">本店宅配為黑貓宅急便
                                     <br>國內最多宅配的首選
                                     <br>濃濃會用心包裝將甜點完好送到你們的手中</p>
@@ -773,7 +773,8 @@
                         <span style="color:#595757; font-size:50px; font-weight:900">小叮嚀</span>
                         <div class="w4">網購方式:
                             <br> 選好甜點和對應字卡之後，請填寫表單，當我們收到單後24小時內會打電話確認內容，請保持手機暢通~
-                            <br> 叮嚀大家~網購宅配物品有項目限制且若有碰撞無法避免，濃濃會謹慎包裝請各位消費者見諒! <br> 宅配方式使用低溫運送，詳細說明請見”常見問題”。
+                            <br> 叮嚀大家~網購宅配物品有項目限制且若有碰撞無法避免，濃濃會謹慎包裝請各位消費者見諒!
+                            <br> 宅配方式使用低溫運送，詳細說明請見”常見問題”。
                             <br> 字卡若有其他想設計的情況，依內容需額外收費，請透過FB/IG私訊我們喔~</div>
                     </div>
                 </div>
@@ -948,15 +949,15 @@
                 </div>
                 <div class="col-md-6 col-12 order-md-2 order-1">
                     <div class="contact-info img-fluid" style="padding: 65px 0">
-                        <p style="font-size:30px;color:#ffffff">TEL:</p>
-                        <p style="font-size:30px;color:#595757">04-12345678</p>
-                        <p style="font-size:30px;color:#ffffff">營業時間:</p>
-                        <p style="font-size:30px;color:#595757">10:00-20:00</p>
-                        <p style="font-size:30px;color:#ffffff">定休日:</p>
-                        <p style="font-size:30px;color:#595757">星期一、四
+                        <p style="color:#E24F43">TEL:</p>
+                        <p style="color:#595757">04-12345678</p>
+                        <p style="color:#E24F43">營業時間:</p>
+                        <p style="color:#595757">10:00-20:00</p>
+                        <p style="color:#E24F43">定休日:</p>
+                        <p style="color:#595757">星期一、四
                             <br>(詳見最新消息)</p>
-                        <p style="font-size:30px;color:#ffffff">店面地址:</p>
-                        <p style="font-size:30px;color:#595757">台中市大里區火星路1號</p>
+                        <p style="color:#E24F43">店面地址:</p>
+                        <p style="color:#595757">台中市大里區火星路1號</p>
                     </div>
                 </div>
             </div>
@@ -989,7 +990,15 @@
         AOS.init();
 
         jQuery(document).ready(function ($) {
-            $('.default-slider').unslider();
+            $('.default-slider').unslider({
+                arrows: {
+                    //  Unslider default behaviour
+                    prev: '<a class="unslider-arrow prev"><i class="fas fa-chevron-circle-left fa-lg"></i></a>',
+                    next: '<a class="unslider-arrow next"><i class="fas fa-chevron-circle-right fa-lg"></i></a>',
+
+                
+                }
+            });
         });
     </script>
 
